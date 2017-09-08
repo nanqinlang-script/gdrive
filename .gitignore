@@ -1,14 +1,10 @@
-# Binaries for programs and plugins
-*.exe
-*.dll
-*.so
-*.dylib
+# Ignore bin folder and drive binary
+_release/bin
 
-# Test binary, build with `go test -c`
-*.test
-
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
-
-# Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
-.glide/
+# vim files
+.*.sw[a-z]
+*.un~
+Session.vim
+.netrwhist
+gdrive
+gdrive.sh
